@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 2% 20%;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    background-size: contain;
+    background-image: url(file:///C:/Users/Admin/Desktop/bai-tap/images/bg-pattern.jpg);
+}
+.menu a{
+    background-image: url(file:///C:/Users/Admin/Desktop/bai-tap/images/bg-navigation.png);
+    color: white;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 0px;
+    text-decoration: none;
+    margin: 20px 0px 5px 0px;
+}
+.banner{
+    border: 5px solid white;
+    margin: 5px 0px;
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+.box .column1, .column2{
+  display: inline-block;
+}
+.line{
+  background-color: green;
+  height: 1px;
+  width: 98%;
+  margin: 5px;
+}
+.new{
+  background-color: white;
+  padding: 9px;
+}
+.certificate{
+  background-color: white;
+  padding: 9px;
+  margin-top: 5px;
+}
+.column1 {
+  width: 65%;
+  color: green;
+  padding: 3px 15px 5px 15px;
+}
+.column2 {
+  width: 30%;
+  padding: 3px 15px 5px 15px;
+}
+.certificate h4{
+  text-align: right;
+}
+.rooms{
+  height: 175px;
+}
+.dive-site{
+  height: 175px;
+}
+.food{
+  height: 175px;
+}
