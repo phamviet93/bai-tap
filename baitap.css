@@ -2,27 +2,31 @@
     box-sizing: border-box;
 }
 body{
-    padding: 2% 20%;
-    font-family: 'Times New Roman', Arial, sans-serif;
-    background-size: contain;
-    background-image: url(file:///C:/Users/Admin/Desktop/bai-tap/images/bg-pattern.jpg);
+  display: block;
+  padding: 2% 20%;
+  font-family: 'Times New Roman', Arial, sans-serif;
+  background-size: contain;
+  background-image: url(images/bg-pattern.jpg);
 }
-.menu a{
-    background-image: url(file:///C:/Users/Admin/Desktop/bai-tap/images/bg-navigation.png);
+.menu1 a{
+    background-image: url(images/bg-navigation.png);
     color: white;
     display: inline-block;
-    padding: 12px 25px;
-    border-radius: 0px;
+    padding: 1% 0.5%;
+    border-radius: 0%;
     text-decoration: none;
-    margin: 20px 0px 5px 0px;
+    margin: 2% 0% 0.5% 0%;
+    width: 13.85%;
+    text-align: center;
 }
 .banner{
     border: 5px solid white;
-    margin: 5px 0px;
+    margin: 1% 0%;
     width: 100%;
 }
 .content{
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 .box .column1, .column2{
   display: inline-block;
@@ -31,35 +35,60 @@ body{
   background-color: green;
   height: 1px;
   width: 98%;
-  margin: 5px;
+  margin: 0.5%;
 }
 .new{
   background-color: white;
-  padding: 9px;
+  padding: 0.5% 2%;
 }
 .certificate{
   background-color: white;
-  padding: 9px;
-  margin-top: 5px;
+  padding: 0.5% 2%;
+  margin-top: 1%;
 }
 .column1 {
   width: 65%;
   color: green;
-  padding: 3px 15px 5px 15px;
+  padding: 1% 0.5% 1% 0.3%;
 }
 .column2 {
   width: 30%;
-  padding: 3px 15px 5px 15px;
+  padding: 0%;
+}
+.column3 .menu2, .icon{
+  display: inline-block;
+  background-image: url(images/icons.png);
+}
+.column3 .menu2 a{
+  color: black;
+  display: inline-block;
+  padding: 1%;
+  border-radius: 0%;
+  text-decoration: none;
+  margin: 1%;
+  width: 12%;
+  text-align: center;
+}
+.column3 .icon a{
+  width: 12%;
+  max-width: 1%;
+  padding: 1%;
+  border-radius: 0%;
+  display: inline-block;
+  text-decoration: none;
 }
 .certificate h4{
   text-align: right;
 }
 .rooms{
-  height: 175px;
+  height: 170px;
 }
 .dive-site{
-  height: 175px;
+  height: 170px;
 }
 .food{
-  height: 175px;
+  height: 170px;
+}
+.footer{
+  text-align: center;
 }
