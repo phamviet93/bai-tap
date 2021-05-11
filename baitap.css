@@ -28,6 +28,9 @@ body{
   text-align: center;
   width: 100%;
 }
+.box{
+  width: 100%;
+}
 .box .column1, .column2{
   display: inline-block;
 }
@@ -49,31 +52,32 @@ body{
 .column1 {
   width: 65%;
   color: green;
-  padding: 1% 0.5% 1% 0.3%;
+  padding: 1% 0.5% 1% 0%;
 }
 .column2 {
-  width: 30%;
+  width: 32%;
   padding: 0%;
+}
+.column3{
+  background-image: url(images/icons.png);
+  width: 100%;
 }
 .column3 .menu2, .icon{
   display: inline-block;
-  background-image: url(images/icons.png);
 }
 .column3 .menu2 a{
   color: black;
   display: inline-block;
-  padding: 1%;
-  border-radius: 0%;
+  padding: 2%;
   text-decoration: none;
   margin: 1%;
-  width: 12%;
-  text-align: center;
+  width: 6%;
+  text-align: left;
+  font-size: 10px;
 }
 .column3 .icon a{
   width: 12%;
-  max-width: 1%;
-  padding: 1%;
-  border-radius: 0%;
+  padding: 8%;
   display: inline-block;
   text-decoration: none;
 }
